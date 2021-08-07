@@ -21,7 +21,7 @@ function preload() {
 }
 
 function setup(){
-    var canvas = createCanvas(displayWidth,displayHeight-115);
+    var canvas = createCanvas(windowWidth,windowHeight-115);
     engine = Engine.create();
     world = engine.world;
     restart = createSprite(displayWidth/2,(displayHeight)/2,100,40)
